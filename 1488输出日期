@@ -1,0 +1,20 @@
+/*题目描述
+从键盘输入三个变量，分别是今天的年、月、日的数值，按格式输出今天的日期。
+
+例如，输入2017  3  1，输出2017年3月1日
+
+输入
+2000  12  29
+
+输出
+2000年12月29日*/
+
+#include<iostream>
+using namespace std;
+ 
+int main(){
+  int year,month,day;
+    cin>>year>>month>>day;
+    cout<<year<<"年"<<month<<"月"<<day<<"日";
+   return 0;
+}
